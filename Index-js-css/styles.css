@@ -1,0 +1,74 @@
+body
+{
+    background-color: white;
+}
+img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+  
+    
+}
+
+ul 
+{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    
+}
+  
+li 
+{
+    float: left;
+}
+ 
+li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+  
+  /* This crates the hover effect over the nav bar */
+li a:hover 
+{
+    background-color: gray;
+}
+.container
+{
+    background-color: white;
+}
+
+div 
+{
+    border: 5px solid black;
+    padding: 8px;
+}
+  
+h1 
+{
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+}
+  
+.intro
+{
+    font-family: monospace, "lucida Console", "Courier New";
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+}
+  
